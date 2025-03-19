@@ -1,12 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CineStream - Assista a filmes e séries</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <div class="logo">
+            <h1>CineStream</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+        </nav>
+        <div class="busca">
+            <form action="#" method="get">
+                <input type="text" placeholder="Pesquisar..." name="search">
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="destaque">
+            <div class="destaque-conteudo">
+                <h2>Stranger Things</h2>
+                <p>Uma pequena cidade descobre um segredo sombrio envolvendo experimentos secretos e criaturas assustadoras.</p>
+                <button class="botao-assistir">Assistir Agora</button>
+            </div>
+        </section>
+
+        <section class="catalogo">
+            <h2>Recomendados para Você</h2>
+            <div class="lista-filmes">
+                <article class="filme">
+                    <img src="programador.jpg" alt="Filme 1">
+                    <h3>O programador assassino</h3>
+                </article>
+                <article class="filme">
+                    <img src="mensagem.jpg" alt="Filme 2">
+                    <h3>Mensagem Maldita</h3>
+                </article>
+                <article class="filme">
+                    <img src="observador.jpg" alt="Filme 3">
+                    <h3>O observador</h3>
+                </article>
+                <article class="filme">
+                    <img src="floresta.webp" alt="Filme 4">
+                    <h3>A floresta Vermelha</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="formulario-login">
+            <h2>Faça Login</h2>
+            <form action="#" method="post">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 CineStream. Todos os direitos reservados.</p>
+        <nav class="links-uteis">
+            <ul>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

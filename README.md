@@ -8,17 +8,18 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Tiago Souza da Silva
+- Matricula: 893647
+- Proposta de projeto escolhida: Catálogo de filme
+- Breve descrição sobre seu projeto: CineStream é um catálogo de filmes e séries com visual escuro e minimalista. Ele destaca conteúdos em evidência, exibe recomendações personalizadas e tem navegação intuitiva com pesquisa e categorias.
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print do esboço](./public/esboco.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print do site criado1](./public/site1.png)
+![Print do site criado2](./public/site2.png)
